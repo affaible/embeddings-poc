@@ -17,7 +17,7 @@ Here we extend this tooling to other parts of the ML work flow.
 2. Discover patterns based on data and the assumptions
 3. Use the discovered patterns to form predictions
 4. Look critically at what happened
-5. Use the learning the criticism phase to revise the assumptions.
+5. Use the learning and criticism phase to revise assumptions
 
 ## Problem Statement
 
