@@ -31,7 +31,7 @@ should be reuced by relating the model to the data it was trained on.
 We will use a simple Computer Vision binary classification; adimena's [cows-vs-no-cows](https://github.com/adimena/Cows-vs-no-cows). 
 The data comes from a mixture of sources. Due to the nature of the training data there was no labelling step needed prior to training the binary classification model.
 
-We are not use `Bulk` for labelling here, the baseline step is purely about integrating the `adimena` data with the `Bulk` tool in the simplest way conceivable.  
+We are not use `Bulk` for labelling for this task. This is a baseline step; it is purely about integrating the `adimena` data with the `Bulk` tool in the simplest way conceivable.  
 
 ### 1. Data Preparation 
 
