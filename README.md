@@ -9,7 +9,7 @@ Here we extend this tooling to other parts of the ML work flow.
 
 **"What does the model I developed based on my assumptions say about the data that I care about?"**
 
-[David Blei](https://www.youtube.com/watch?v=DaqNNLidswA) describes an iterative worflow that he calls **Box's Loop**:
+[David Blei](https://www.youtube.com/watch?v=DaqNNLidswA) describes an iterative workflow that he calls **Box's Loop**:
 
 ![image](box_cycle.png "Box Cycle")
 
@@ -23,8 +23,8 @@ Here we extend this tooling to other parts of the ML work flow.
 
 Deep Learning models are often seen as a black box. 
 This presents difficulties of relating the models to the training data that they were trained on.
-To assist in extending a linear pipeline to an iterative process of continuous improvement we need simple tools to reduce the opacity of the models
-by relating the model output to the training data. 
+Rather than a linear 'train and forget' ML pipeline, an iterative process is required. Tools should support continuous improvement of the models. The inherent opacity of Deep Learning models
+should be reuced by relating the model to the data it was trained on. 
 
 ## Baseline
 
