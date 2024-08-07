@@ -74,7 +74,7 @@ And the bottom left:
 ----
 
 We can see some visual differences between the two groups but it is not compelling. 
-The technology and results work as expected at this point, but we need to take this further to achieve tooling that assists with the Box Loop.
+The technology and results work as expected at this point, but we need to take this further to achieve tooling that assists with Box's Loop.
 
 ## Trained Model Embeddings
 
@@ -232,4 +232,4 @@ Another cluster shows how there can be a group of data points that are visually 
 ## Conclusion
 
 Tools that improve analysis of models and allow flexibile workflow integration are necessary to improve the methodologies when working with Deep Learning models.
-With some small hacks koaning's tool takes some of the guess work over the scope for areas of improvement on a simple CNN binary classifier. Visualisation tooling on the trained emdbeddings seems to fit well with the Box Loop as it quickly allows the Researcher to test their assumptions about the model and the data.  
+With some small hacks koaning's tool takes some of the guess work over the scope for areas of improvement on a simple CNN binary classifier. Visualisation tooling on the trained emdbeddings seems to fit well with Box's Loop. Posterior analysis using T-SNE enables efficient analysis of the models interpretation of the training data.
