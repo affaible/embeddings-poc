@@ -7,7 +7,7 @@ Here we extend this tooling to other parts of the ML work flow.
 ## Background
 
 
-**"What does the model I developed based on my assumptions say about the data that I care about? That is Posterior Inference."**
+**"What does the model I developed based on my assumptions say about the data that I care about?"**
 
 [David Blei](https://www.youtube.com/watch?v=DaqNNLidswA) describes an iterative worflow that he calls **Box's Loop**:
 
