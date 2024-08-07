@@ -38,7 +38,7 @@ The data comes from a mixture of sources. Due to the nature of the training data
 Take a random reduced (100 images) sample set across the entire dataset.
 
 ```
-$ mkdir smpl_set && cp `ls | shuf -n 100` smpl_set`
+$ mkdir smpl_set && cp `ls | shuf -n 100` smpl_set
 ```
 
 ### 2. Create the Input File
@@ -74,7 +74,7 @@ And the bottom left:
 ----
 
 We can see some visual differences between the two groups but it is not compelling. 
-The technology and results work as expected at this point, but we need to take this further to achieve tooling that assists with the Box Cycle.
+The technology and results work as expected at this point, but we need to take this further to achieve tooling that assists with the Box Loop.
 
 ## Trained Model Embeddings
 
