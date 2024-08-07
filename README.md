@@ -9,7 +9,7 @@ Here we extend this tooling to other parts of the ML workflow.
 
 **"What does the model I developed based on my assumptions say about the data that I care about?"**
 
-In a lecture on [Probabilistic Models](https://www.youtube.com/watch?v=DaqNNLidswA) describes an iterative workflow that he calls **Box's Loop** (@11:50).
+In a lecture on [Probabilistic Models](https://www.youtube.com/watch?v=DaqNNLidswA) David Blei describes an iterative workflow that he calls **Box's Loop** (@11:50).
 
 ![image](box_cycle.png "Box Cycle")
 
