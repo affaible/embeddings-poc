@@ -235,4 +235,4 @@ The opacity of models trained on a dNN necessitates specialist tooling to take a
 
 With some small hacks the `Bulk` tool has been shown to remove the guess work on analysis of a simple CNN binary classifier. Understanding the influence of aspects of the data has the potential to improve training data quality and reduce trial and error. Visualisation tooling on the trained embeddings seems to fit well with iterative workflows (Box's Loop). 
 
-Posterior analysis using T-SNE enables efficient analysis of the models interpretation of the training data.
+Posterior analysis using T-SNE enables an efficient examination of the models interpretation of the training data.
