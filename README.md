@@ -232,4 +232,4 @@ Another cluster shows how there can be clusters of visually similar data that cu
 ## Conclusion
 
 Tools that improve analysis of models and allow flexibile workflow integration are necessary to improve the methodologies when working with Deep Learning models.
-With some small hacks koaning's tool takes some of the guess work over the scope for areas of improvement on a simple CNN binary classifier. 
+With some small hacks koaning's tool takes some of the guess work over the scope for areas of improvement on a simple CNN binary classifier. Visualisation tooling on the trained emdbeddings seems to fit well with the Box Loop as it quickly allows the Researcher to test their assumptions about the model and the data.  
