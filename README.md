@@ -208,7 +208,7 @@ python -m bulk image adimena_embeddings.csv
 
 ----
 
-The data points fill more of the surface than the embetter example and there is some clustering evident.
+The data points fill more of the surface than the `embetter` example and there is some clustering evident.
 
 ![image](adimena-tsne.png "Adimena T-SNE")
 
