@@ -231,5 +231,7 @@ Another cluster shows how there can be a group of data points that are visually 
 
 ## Conclusion
 
-Tools that improve analysis of models and allow flexibile workflow integration are necessary to improve the methodologies when working with Deep Learning models.
-With some small hacks koaning's tool takes some of the guess work over the scope for areas of improvement on a simple CNN binary classifier. Visualisation tooling on the trained embeddings seems to fit well with Box's Loop. Posterior analysis using T-SNE enables efficient analysis of the models interpretation of the training data.
+Deep Learning models require specialist tools to apply standard methodologies. Labelling technologies can also assist in model analysis if the workflow integration is sufficiently flexible. 
+With some small hacks the `Bulk` tool has been shown to removes the guess work on analysis of a simple CNN binary classifier. Understanding the influence of aspects of the data has the potential to improve training data quality and reduce trial and error. Visualisation tooling on the trained embeddings seems to fit well with iterative workflows (Box's Loop). 
+
+Posterior analysis using T-SNE enables efficient analysis of the models interpretation of the training data.
