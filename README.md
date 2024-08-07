@@ -24,7 +24,7 @@ Here we extend this tooling to other parts of the ML work flow.
 Deep Learning models are often seen as a black box. 
 This presents difficulties of relating the models to the training data that they were trained on.
 Rather than a linear 'train and forget' ML pipeline, an iterative process is required. Tools should support continuous improvement of the models. The inherent opacity of Deep Learning models
-should be reuced by relating the model to the data it was trained on. 
+should be minimised by relating the model to the data it was trained on. 
 
 ## Baseline
 
