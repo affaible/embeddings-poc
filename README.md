@@ -225,7 +225,7 @@ This is encouraging, not only are the images visually similar they come from [th
 
 ![image](adimena-green-tsne.png "Green T-SNE")
 
-Another cluster shows how there can be clusters of visually similar data that cut across the desired classifications.
+Another cluster shows how there can be a group of data points that are visually similar, but cut across the desired classifications.
 
 ----
 
