@@ -2,14 +2,14 @@
 
 Vincent Warmerdam proposes a T-SNE approach to the problem of [bulk labelling](https://github.com/koaning/bulk?tab=readme-ov-file).
 
-Here we extend this tooling to other parts of the ML work flow.
+Here we extend this tooling to other parts of the ML workflow.
 
 ## Background
 
 
 **"What does the model I developed based on my assumptions say about the data that I care about?"**
 
-[David Blei](https://www.youtube.com/watch?v=DaqNNLidswA) describes an iterative workflow that he calls **Box's Loop**:
+In a lecture on [Probabilistic Models](https://www.youtube.com/watch?v=DaqNNLidswA) describes an iterative workflow that he calls **Box's Loop** (@11:50).
 
 ![image](box_cycle.png "Box Cycle")
 
@@ -19,16 +19,20 @@ Here we extend this tooling to other parts of the ML work flow.
 4. Look critically at what happened
 5. Use the learning and criticism phase to revise assumptions
 
+These cyclical representations of workflows are common in Data Science.
+
 ## Problem Statement
 
-Deep Learning models are often seen as a black box. 
-This presents difficulties of relating the models to the training data that they were trained on.
-Rather than a linear 'train and forget' ML pipeline, an iterative process is required. Tools should support continuous improvement of the models. The inherent opacity of Deep Learning models
-should be minimised by relating the model to the data it was trained on. 
+Deep Learning models are often seen as a black box. This can create a disconnect between the model and the training data.
+Furthermore labelling the large datasets for a dNN, combined with long training times, result in long cycle times.
+The meta-learning rate is slow, the researchers take a long time to learn about how the way the model interacts with the data.
+
+- Rather than a linear 'train and forget' ML pipeline, an iterative process is required. Tools should support continuous improvement of the models.
+- The inherent opacity of Deep Learning models should be minimised by providing visibility of the way the model relates to the data it was trained on.
 
 ## Baseline
 
-We will use a simple Computer Vision binary classification; adimena's [cows-vs-no-cows](https://github.com/adimena/Cows-vs-no-cows). 
+We will use a simple computer vision binary classification; adimena's [cows-vs-no-cows](https://github.com/adimena/Cows-vs-no-cows). 
 The data comes from a mixture of sources. Due to the nature of the training data there was no labelling step needed prior to training the binary classification model.
 
 `Bulk` will not be used labelling for this task. The baseline step is purely about integrating the `adimena` data with the `Bulk` tool in the simplest way conceivable to test technology and understanding.  
