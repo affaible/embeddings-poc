@@ -15,7 +15,7 @@ Here we extend this tooling to other parts of the ML work flow.
 
 1. Make assumptions about the world
 2. Discover patterns based on data and the assumptions
-3. Use the discovered patterns to form predictions e.g. explain causal inference.
+3. Use the discovered patterns to form predictions
 4. Look critically at what happened
 5. Use the learning the criticism phase to revise the assumptions.
 
