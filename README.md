@@ -43,7 +43,7 @@ $ mkdir smpl_set && cp `ls | shuf -n 100` smpl_set`
 
 ### 2. Create the Input File
 
-Create the `ready.csv` input file with the (embetter)[https://github.com/koaning/embetter] embeddings as shown in the [example](https://github.com/koaning/bulk?tab=readme-ov-file#bulk-image)
+Create the `ready.csv` input file with the [embetter](https://github.com/koaning/embetter) embeddings as shown in the [example](https://github.com/koaning/bulk?tab=readme-ov-file#bulk-image)
 
 ### 3. Run
 
@@ -218,7 +218,7 @@ Taking a look at one of these clusters
 
 ![image](kaggle-set-tsne.png "Kaggle Set T-SNE")
 
-This is encouraging, not only are the images visually similar they come from (the same dataset)[https://www.kaggle.com/datasets/sadhliroomyprime/cattle-weight-detection-model-dataset-12k]!
+This is encouraging, not only are the images visually similar they come from [the same dataset](https://www.kaggle.com/datasets/sadhliroomyprime/cattle-weight-detection-model-dataset-12k)!
 
 ----
 
