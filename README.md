@@ -237,6 +237,6 @@ Another cluster shows how there can be a group of data points that are visually 
 
 The opacity of models trained on a dNN necessitates specialist tooling to take advantage of methodologies promoted in other areas of ML. Labelling technologies can be applied to model analysis, providing the workflow integration is sufficiently flexible. Moreover, a process that refines the training data and embeddings on successive iterations could change the nature of labelling from a single outsourced operation with long lead times to a continuous collaborative process.
 
-With some small hacks the `Bulk` tool has been shown to remove the guess work on analysis of a simple CNN binary classifier. Understanding the influence of aspects of the data has the potential to improve training data quality and reduce trial and error. Visualisation tooling on the trained embeddings seems to fit well with iterative workflows (Box's Loop). 
+With some small hacks the `Bulk` tool has been shown to remove the guess work on analysis of a simple CNN binary classifier. Understanding the influence of aspects of the data has the potential to improve training data quality and reduce trial and error. Visualisation tooling on the trained embeddings seems to fit well with iterative workflows (such as Box's Loop). 
 
 Posterior analysis using T-SNE enables an efficient examination of the models interpretation of the training data.
