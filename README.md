@@ -223,7 +223,7 @@ Taking a look at one of these clusters
 
 ![image](kaggle-set-tsne.png "Kaggle Set T-SNE")
 
-This is encouraging, not only are the images visually similar they come from [the same dataset](https://www.kaggle.com/datasets/sadhliroomyprime/cattle-weight-detection-model-dataset-12k)! The cluster comes from a single target category (cows). The kaggle weight detection dataset provides a readily available source of pre-labelled data. The photos are visually very similar to one another in backgrounds and compositions. However the composition is quite different from the data collected in the field. The distribution of the clusters suggest that the current balance of the data sources needs further work to improve the classification around the target variables.
+This is encouraging, not only are the images visually similar they come from [the same dataset](https://www.kaggle.com/datasets/sadhliroomyprime/cattle-weight-detection-model-dataset-12k)! The cluster comes from a single target category (cows). The kaggle weight detection dataset provides a readily available source of pre-labelled data. Aside from the presence of a single cow, the photos are visually very similar to one another in background and composition. However the composition is quite different from the data collected in the field. The distribution of the clusters suggest that the current balance of the data sources needs further work to improve the classification around the target variables.
 
 ----
 
