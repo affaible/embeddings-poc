@@ -42,7 +42,7 @@ The data comes from a mixture of sources. Due to the nature of the training data
 Take a random reduced (100 images) sample set across the entire dataset.
 
 ```
-$ mkdir smpl_set && cp `ls | shuf -n 100` smpl_set
+mkdir smpl_set && cp `ls | shuf -n 100` smpl_set
 ```
 
 ### 2. Create the Input File
@@ -54,7 +54,7 @@ Create the `ready.csv` input file with the [embetter](https://github.com/koaning
 The Bulk tool takes the created `ready.csv` as input
 
 ```
-$ python -m bulk image ready.csv
+python -m bulk image ready.csv
 ```
 
 ----
@@ -77,8 +77,8 @@ And the bottom left:
 
 ----
 
-We can see some visual differences between the two groups but it is not compelling. 
-The technology and results work as expected at this point, but we need to take this further to achieve tooling that assists with Box's Loop.
+We can see some visual differences between the two groups, but it is not compelling. This is expected with off-the-shelf embeddings. 
+The technology and results work as expected at this point. We need to take this further to achieve tooling that assists with Box's Loop.
 
 ## Trained Model Embeddings
 
