@@ -82,14 +82,15 @@ The technology and results work as expected at this point. We need to take this 
 
 ## Trained Model Embeddings
 
-Koaning's ReadMe suggests we are free to use whatever embeddings we like.
-We are interested in the relationship between the trained model and the original data.
-For this we need to have the emdeddings from the trained model.
-The next steps show how we can alter the workflow to improve our insight into the model. 
+The baseline used off-the-shelf embeddings; `embetter`.
+We are interested in the interaction between the trained model and the original data. 
+To be useful for posterior analysis we should use the emdeddings from the trained model. 
+The `Bulk` ReadMe suggests we are free to use whatever embeddings we like.
+The next steps show how we can change the data preparation to produce an input file that will provide the desired insight into the model-data interaction. 
 
 ### 1. Create Embeddings
 
-Create embeddings from adimena's model.
+Create embeddings from the `adimena` model.
 
 ```python
 """                                                                                                                                                           
