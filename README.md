@@ -84,7 +84,7 @@ The technology and results work as expected at this point. We need to take this 
 
 The baseline used off-the-shelf embeddings; `embetter`.
 We are interested in the interaction between the trained model and the original data. 
-To be useful for posterior analysis we should use the emdeddings from the trained model. 
+To be useful for posterior analysis we should use the embeddings from the trained model. 
 The `Bulk` ReadMe suggests we are free to use whatever embeddings we like.
 The next steps show how we can change the data preparation to produce an input file that will provide the desired insight into the model-data interaction. 
 
