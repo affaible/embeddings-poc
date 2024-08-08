@@ -77,7 +77,7 @@ And the bottom left:
 
 ----
 
-We can see some visual differences between the two groups, but it is not compelling. This is expected with off-the-shelf embeddings. 
+We can see some visual differences between the two groups, but it is not compelling. This is to be expected with off-the-shelf embeddings. 
 The technology and results work as expected at this point. We need to take this further to achieve tooling that assists with Box's Loop.
 
 ## Trained Model Embeddings
