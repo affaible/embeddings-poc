@@ -107,7 +107,7 @@ from keras.models import Sequential
 import umap
 
 # Load in adimena's training model:                                                                                                                           
-training_model = keras.models.load_model('short_run.keras')
+training_model = keras.models.load_model('adimena-model.keras')
 
 print(training_model.summary())
 
