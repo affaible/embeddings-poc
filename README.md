@@ -222,14 +222,14 @@ Taking a look at one of these clusters
 
 ![image](kaggle-set-tsne.png "Kaggle Set T-SNE")
 
-This is encouraging, not only are the images visually similar they come from [the same dataset](https://www.kaggle.com/datasets/sadhliroomyprime/cattle-weight-detection-model-dataset-12k)!
+This is encouraging, not only are the images visually similar they come from [the same dataset](https://www.kaggle.com/datasets/sadhliroomyprime/cattle-weight-detection-model-dataset-12k)! The cluster comes from a single target category (cows). The weight detection dataset would provide a readuly available source of pre-labelled data. The photos are visually similar to one another, but the backgrounds and compositions are quite different from the data collected in the field. The distribution of the clusters suggest that the current balance of the data sources needs further work to improve the classification around the target variables.
 
 ----
 
 
 ![image](adimena-green-tsne.png "Green T-SNE")
 
-Another cluster shows how there can be a group of data points that are visually similar, but cut across the desired classifications.
+Another cluster shows how there can be a group of data points that are visually similar. This time the cluster cuts across the desired categories.
 
 ----
 
