@@ -24,7 +24,7 @@ These cyclical representations of workflows are common in Data Science.
 ## Problem Statement
 
 Deep Learning models are often seen as a black box. This can create a disconnect between the model and the training data.
-Furthermore labelling the large datasets for a dNN, combined with long training times, result in long cycle times.
+Furthermore labelling the large datasets for a dNN, combined with long training times, result in long cycle times in industrial workflows.
 The meta-learning rate is slow, the researchers take a long time to learn about how the way the model interacts with the data.
 
 - Rather than a linear 'train and forget' ML pipeline, an iterative process is required. Tools should support continuous improvement of the models.
