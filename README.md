@@ -32,8 +32,8 @@ The meta-learning rate is slow, the researchers take a long time to learn about 
 
 ## Baseline
 
-We will use a simple computer vision binary classification; adimena's [cows-vs-no-cows](https://github.com/adimena/Cows-vs-no-cows). 
-The data comes from a mixture of sources. Due to the nature of the training data there was no labelling step needed prior to training the binary classification model.
+We will use a simple computer vision classifier from `adimena` to create a spike: [cows-vs-no-cows](https://github.com/adimena/Cows-vs-no-cows). 
+The project has used training data from a mixture of sources. This binary classification required no labelling step, the data was pre-sorted.
 
 `Bulk` will not be used labelling for this task. The baseline step is purely about integrating the `adimena` data with the `Bulk` tool in the simplest way conceivable to test technology and understanding.  
 
